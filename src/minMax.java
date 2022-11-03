@@ -6,11 +6,11 @@ public class minMax {
         int sizeNasennik = 10, iPN = 1;
         int liczbaPN, minPN = 101, maxPN = 0;
 
-        Random rPN = new Random();
+        Random rNasennik = new Random();
         System.out.print("Drawn: ");
 
         while (iPN <= sizeNasennik){
-            liczbaPN = Math.round((rPN.nextInt(100)+1));
+            liczbaPN = Math.round((rNasennik.nextInt(100)+1));
             System.out.print(liczbaPN + ", ");
 
             if(liczbaPN < minPN) minPN = liczbaPN;
