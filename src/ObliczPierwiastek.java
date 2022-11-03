@@ -10,15 +10,15 @@ public class ObliczPierwiastek {
         double aPN, bPN, cPN, deltaPN, x1PN, x2PN; char pierwiastkiPN = 0;
 
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        System.out.println("Wpisz A:");
+        System.out.println("Podaj wartosc A:");
         aPN = Double.parseDouble(br.readLine());
 
         if (aPN == 0){
             System.out.println("Niepoprawna wartosc A.");
         } else {
-            System.out.println("Wpisz B:");
+            System.out.println("Podaj wartosc B:");
             bPN = Double.parseDouble(br.readLine());
-            System.out.println("Wpisz C:");
+            System.out.println("Podaj wartosc C:");
             cPN = Double.parseDouble(br.readLine());
 
             deltaPN = pow(bPN,2) - 4*aPN*cPN;
